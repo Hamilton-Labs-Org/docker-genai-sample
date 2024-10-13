@@ -17,7 +17,7 @@ username = os.getenv("NEO4J_USERNAME")
 password = os.getenv("NEO4J_PASSWORD")
 ollama_base_url = os.getenv("OLLAMA_BASE_URL")
 embedding_model_name = os.getenv("EMBEDDING_MODEL", "SentenceTransformer" )
-llm_name = os.getenv("LLM", "llama2")
+llm_name = os.getenv("LLM")
 url = os.getenv("NEO4J_URI")
 
 # Check if the required environment variables are set
