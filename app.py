@@ -16,7 +16,7 @@ url = os.getenv("NEO4J_URI")
 username = os.getenv("NEO4J_USERNAME")
 password = os.getenv("NEO4J_PASSWORD")
 ollama_base_url = os.getenv("OLLAMA_BASE_URL")
-embedding_model_name = os.getenv("EMBEDDING_MODEL", "SentenceTransformer" )
+embedding_model_name = os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2" )
 llm_name = os.getenv("LLM")
 url = os.getenv("NEO4J_URI")
 
